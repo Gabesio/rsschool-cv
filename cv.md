@@ -26,3 +26,13 @@ I always have been internet enthusiast since childhood. I have always been fasci
                 </li>
 ```
 ## Experience
+Accomplished [CV project](https://vibrant-jang-ac7ef2.netlify.app/) in IT school **GoIT**. During the implementation of this project, mainly were used skills of working with the layout for the site, HTML, CSS and VS Code.
+## Courses
+- [GoIT](https://goit.global/ua-ru/) Front-end developer trial marathon
+- C1 English courses
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+## Languages
+- English - Upper-intermediate (according to the final exam in English at the Narva Krenholm Gymnasium)
+- Russian - Native
+- Estonian - Pre-intermediate
+- German - Basic

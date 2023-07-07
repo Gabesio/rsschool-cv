@@ -25,7 +25,7 @@
     position: relative;
     width: 100%;
     max-width: 1100px;
-    min-height: 1000px;
+    min-height: 1500px;
     margin: 50px;
     background: rgb(255, 255, 255);
     display: grid;
@@ -213,7 +213,6 @@
   .languages {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 2px solid rgb(255, 255, 255);
   }
 
   .right_side .title {
@@ -416,7 +415,7 @@
     width: 20px;
   }
 
-  @media (max width: 1100px) {
+  @media (max-width: 1100px) {
     .container {
       margin: 10px;
       grid-template-columns: repeat(1,1fr);
@@ -425,4 +424,25 @@
     .interest ul {
       grid-template-columns: repeat(2,1fr);
     }
+  }
+
+  .footer {
+    position: relative;
+    top:690px;
+    right: 160px;
+  }
+
+  .footer .fa {
+    color: #000000;
+    font-size: 22px;
+  }
+
+  .footer p {
+    color: #000000;
+    font-weight: 700;
+
+  }
+
+  .footer .rs_img {
+    color: hsl(0, 0%, 0%);
   }

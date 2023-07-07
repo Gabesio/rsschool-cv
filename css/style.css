@@ -168,7 +168,7 @@
     margin-top: 5px;
   }
 
-  .languages .percent div {
+  .languages .percent span {
     position: absolute;
     top: 0;
     left: 0;

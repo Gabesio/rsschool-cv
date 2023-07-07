@@ -43,7 +43,6 @@
     position: relative;
     background: rgb(255, 255, 255);
     padding: 40px;
-    font-size: 50px;
   }
 
   .profile .avatar {
@@ -69,7 +68,7 @@
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.4em;
   }
 
@@ -84,13 +83,13 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 60px;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
   }
 
   .contact_info {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
   }
 
   .contact_info ul li a {
@@ -98,7 +97,7 @@
     color: white;
   }
 
-  .title {
+  .left_side .title {
     color: white;
     text-transform: uppercase;
     font-weight: 600;
@@ -132,7 +131,7 @@
   .experience {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
   }
 
   .experience .box {
@@ -141,22 +140,29 @@
 
   .experience .box a {
     text-decoration: none;
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
   }
 
   .experience .box h5 {
    color: rgb(255, 255, 255);
    font-weight: 700;
+   padding-top: 3px;
+   padding-bottom: 3px;
   }
 
   .experience .box h4 {
     color: white;
     font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
 
   .experience .box p {
-    color: rgb(187, 187, 187);
+    color: rgb(255, 255, 255);
     font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 22px;
   }
 
   .languages .percent {
@@ -207,5 +213,34 @@
   .languages {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+  .right_side .title {
+    color: #000000;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+
+  .right_side .about p {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 22px;
+  }
+
+  .about {
+    margin-bottom: 50px;
+  }
+
+  .about:last-child {
+    margin-bottom: 0;
   }

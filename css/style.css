@@ -14,7 +14,7 @@
   }
 
   .body {
-    background: rgb(217, 217, 217);
+    background: rgb(239, 239, 239);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -445,4 +445,6 @@
 
   .footer .rs_img {
     color: hsl(0, 0%, 0%);
+    width: 70px;
+    height: 25px;
   }
